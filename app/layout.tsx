@@ -117,7 +117,7 @@ export default function RootLayout({
       />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <body>
-        <div className="flex h-screen max-w-[1728px] flex-col justify-between">
+        <div className="flex h-screen flex-col justify-between">
           <Header />
           <main className="relative">{children}</main>
         </div>

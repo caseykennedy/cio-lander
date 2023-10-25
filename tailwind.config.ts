@@ -7,19 +7,30 @@ export default {
   content: ["./**/*.{ts,tsx}"],
   theme: {
     container: {
-      center: false,
+      center: true,
       padding: {
-        DEFAULT: "1.75rem",
+        DEFAULT: "18px",
         sm: "1.75rem",
         lg: "2rem",
-        xl: "2.75rem",
-        "2xl": "2.75rem",
+        xl: "2rem",
       },
       screens: {
-        "2xl": "1183px",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1183px",
       },
     },
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1183px",
+    },
     extend: {
+      borderRadius: {
+        DEFAULT: "10px",
+      },
       linearGradients: {
         // Example gradients
         "purple-to-magenta": ["90deg", "#5B0BFF", "#8E2DE2"],
