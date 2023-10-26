@@ -48,7 +48,11 @@ const NavLink = ({
 export default function Header() {
   const pathname = usePathname();
   return (
-    <header className="fixed top-0 z-30 w-full px-[18px] pt-4 md:pt-8 lg:pt-12">
+    <header
+      className={cn(`fixed top-0 z-30 w-full px-[18px] pt-4 md:pt-8 lg:pt-12`, {
+        dark: pathname === "/data-pipelines",
+      })}
+    >
       <div className="container mx-auto flex h-[44px] flex-row items-center justify-between rounded-[10px] bg-white/10 backdrop-blur-[10px] sm:h-[87px]">
         <div
           className="text-base leading-tight"
