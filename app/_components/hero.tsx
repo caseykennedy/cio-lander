@@ -73,8 +73,8 @@ export default function Hero({
         theme,
       )}
     >
-      <Tabs defaultValue="overview" orientation="vertical">
-        <div className="container mx-auto flex flex-col items-center gap-12 overflow-hidden pb-10 sm:relative sm:overflow-visible sm:pb-12 md:flex-row md:gap-12 md:pb-16 md:pt-10 lg:pt-28">
+      <Tabs defaultValue="overview" orientation="vertical" className="w-full">
+        <div className="container mx-auto flex w-full flex-col items-center gap-12 overflow-hidden pb-10 sm:relative sm:overflow-visible sm:pb-12 md:flex-row md:gap-12 md:pb-16 md:pt-10 lg:pt-28">
           <div className="relative z-30 flex-[1] sm:hidden">
             <TabsList>
               <TabsTrigger value="overview">Overview</TabsTrigger>
@@ -82,23 +82,15 @@ export default function Hero({
             </TabsList>
           </div>
 
-          <div className="relative -top-4 z-20 mb-12 max-h-[426px] flex-1 sm:mb-0 md:flex-[1.1] xl:flex-[2]">
+          <div className="relative -top-4 z-20 mb-12 max-h-[426px] w-full flex-1 sm:mb-0 md:flex-[1.1] xl:flex-[2]">
             <TabsContent value="overview">
               <motion.div
                 variants={staggerChild}
                 initial="hidden"
                 animate="visible"
-                className="relative z-30 w-full shrink-0 px-8 md:px-0"
+                className="relative z-30 w-full px-8 md:px-0"
               >
                 {pickArtwork(name, "Dashboard")}
-
-                {/* <Image
-                  priority
-                  src={images.dashboard}
-                  height={420}
-                  width={700}
-                  alt="Customer.io Journeys"
-                /> */}
               </motion.div>
             </TabsContent>
             <TabsContent value="features">
@@ -106,17 +98,9 @@ export default function Hero({
                 variants={staggerChild}
                 initial="hidden"
                 animate="visible"
-                className="relative z-30 w-full shrink-0 px-8 md:px-0"
+                className="relative z-30 w-full px-8 md:px-0"
               >
                 {pickArtwork(name, "Platform")}
-
-                {/* <Image
-                  priority
-                  src={images.platform}
-                  height={420}
-                  width={700}
-                  alt="Customer.io Journeys"
-                /> */}
               </motion.div>
             </TabsContent>
             <motion.div
@@ -158,7 +142,7 @@ export default function Hero({
               <TabsContent value="overview">
                 <motion.p
                   variants={staggerChild}
-                  className="lead px-4 text-center sm:text-left md:mb-10 md:px-0 lg:max-w-[27ch]"
+                  className="lead px-4 text-center sm:px-0 sm:text-left md:mb-10 lg:max-w-[27ch]"
                 >
                   {overview.content}
                 </motion.p>
@@ -167,7 +151,7 @@ export default function Hero({
               <TabsContent value="features">
                 <motion.p
                   variants={staggerChild}
-                  className="lead px-4 text-center sm:text-left md:mb-10 md:px-0 lg:max-w-[27ch]"
+                  className="lead px-4 text-center sm:px-0 sm:text-left md:mb-10 lg:max-w-[27ch]"
                 >
                   {features.content}
                 </motion.p>

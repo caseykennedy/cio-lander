@@ -18,8 +18,8 @@ const animatePath = {
 export default function JourneysDashboard() {
   return (
     <motion.svg
-      width="700"
-      height="420"
+      width="100%"
+      // height="100%"
       viewBox="0 0 700 420"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
