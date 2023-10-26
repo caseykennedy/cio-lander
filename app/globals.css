@@ -15,6 +15,12 @@
       #8e2de2 0.03%,
       #4a00e0 64.45%
     );
+
+    --header-height: 44px;
+
+    @media (min-width: 640px) {
+      --header-height: 87px;
+    }
   }
 
   .dark {
@@ -27,22 +33,6 @@
       #00f260 -15.54%,
       #0575e6 64.94%
     );
-  }
-
-  .header-offset {
-    --calc-value: calc(87px + 3rem);
-    padding-top: var(--calc-value);
-  }
-
-  .gradient-decorator {
-    background: var(--gradient-decorator);
-  }
-
-  .text-gradient {
-    background: var(--gradient-text);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
 
   html {
@@ -87,6 +77,19 @@
     @apply text-base leading-[20px] lg:text-[20px] lg:leading-[30px];
   }
 
-  a {
+  .header-offset {
+    --calc-value: calc(var(--header-height) + 3rem);
+    padding-top: var(--calc-value);
+  }
+
+  .gradient-decorator {
+    background: var(--gradient-decorator);
+  }
+
+  .text-gradient {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }

@@ -22,7 +22,7 @@ const DecoratorTile = () => (
       stiffness: 200,
       damping: 40,
     }}
-    className="gradient-decorator absolute -left-[0] bottom-[29rem] z-10 h-[110%] w-[110%] shrink-0 rounded-[41px] sm:-left-[40%] sm:h-[900px] sm:w-[900px] sm:rounded-[92px] md:-left-[64%] md:bottom-24 lg:-left-[26rem] xl:-left-60"
+    className="gradient-decorator absolute -left-[0] bottom-[20rem] z-10 h-[110%] w-[110%] shrink-0 rounded-[41px] sm:-left-[40%] sm:bottom-[25rem] sm:h-[900px] sm:w-[900px] sm:rounded-[92px] md:-left-[64%] md:bottom-24 lg:-left-[26rem] lg:bottom-[6.5rem] lg:h-[940px] lg:w-[940px] xl:-left-64"
   />
 );
 
@@ -44,7 +44,7 @@ export default function Hero({
       )}
     >
       <Tabs defaultValue="overview" orientation="vertical">
-        <div className="container mx-auto flex flex-col items-center gap-12 overflow-hidden pb-8 sm:relative sm:overflow-visible sm:pb-12 md:flex-row md:gap-12 md:pb-20 md:pt-10 lg:pt-32">
+        <div className="container mx-auto flex flex-col items-center gap-12 overflow-hidden pb-10 sm:relative sm:overflow-visible sm:pb-12 md:flex-row md:gap-12 md:pb-16 md:pt-10 lg:pt-28">
           <div className="relative z-30 flex-[1] sm:hidden">
             <TabsList>
               <TabsTrigger value="overview">Overview</TabsTrigger>
@@ -105,15 +105,21 @@ export default function Hero({
             variants={staggerContainer}
             initial="hidden"
             animate="visible"
-            className="relative z-20 flex flex-1 flex-col items-center gap-10 sm:flex-row md:flex-col md:items-start"
+            className="relative z-20 flex flex-1 flex-col items-center sm:flex-row md:flex-col md:items-start"
           >
             <div className="flex-[1.25] md:flex-1">
-              <div className="text-center text-h2 sm:text-left">
+              <motion.div
+                variants={staggerChild}
+                className="text-center text-h2 sm:text-left"
+              >
                 Customer.io
-              </div>
-              <h1 className="text-gradient mb-2 text-center sm:mb-6 sm:inline-block sm:text-left">
+              </motion.div>
+              <motion.h1
+                variants={staggerChild}
+                className="text-gradient mb-2 text-center sm:mb-5 sm:inline-block sm:text-left"
+              >
                 {name}
-              </h1>
+              </motion.h1>
 
               <TabsContent value="overview">
                 <motion.p
