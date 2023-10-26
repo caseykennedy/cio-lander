@@ -3,6 +3,11 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
+import DataPipelinesDashboard from "./data-pipelines-dashboard";
+import DataPipelinesPlatform from "./data-pipelines-platform";
+import JourneysDashboard from "./journeys-dashboard";
+import JourneysPlatform from "./journeys-platform";
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs";
 import type { PageContextShape } from "~/lib/get-page-context";
 import { cn } from "~/util";
@@ -36,6 +41,31 @@ export default function Hero({
   PageContextShape,
   "theme" | "name" | "overview" | "features" | "images"
 >) {
+  const pickArtwork = (name: string, feature: string) => {
+    switch (name) {
+      case "Journeys":
+        switch (feature) {
+          case "Dashboard":
+            return <JourneysDashboard />;
+
+          case "Platform":
+            return <JourneysPlatform />;
+        }
+
+      case "Data Pipelines":
+        switch (feature) {
+          case "Dashboard":
+            return <DataPipelinesDashboard />;
+
+          case "Platform":
+            return <DataPipelinesPlatform />;
+        }
+
+      default:
+        return null;
+    }
+  };
+
   return (
     <section
       className={cn(
@@ -60,13 +90,15 @@ export default function Hero({
                 animate="visible"
                 className="relative z-30 w-full shrink-0 px-8 md:px-0"
               >
-                <Image
+                {pickArtwork(name, "Dashboard")}
+
+                {/* <Image
                   priority
                   src={images.dashboard}
                   height={420}
                   width={700}
                   alt="Customer.io Journeys"
-                />
+                /> */}
               </motion.div>
             </TabsContent>
             <TabsContent value="features">
@@ -76,13 +108,15 @@ export default function Hero({
                 animate="visible"
                 className="relative z-30 w-full shrink-0 px-8 md:px-0"
               >
-                <Image
+                {pickArtwork(name, "Platform")}
+
+                {/* <Image
                   priority
                   src={images.platform}
                   height={420}
                   width={700}
                   alt="Customer.io Journeys"
-                />
+                /> */}
               </motion.div>
             </TabsContent>
             <motion.div

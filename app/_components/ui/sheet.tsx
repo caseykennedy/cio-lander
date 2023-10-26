@@ -67,7 +67,6 @@ const SheetContent = React.forwardRef<
       <div className="mb-4 flex items-center justify-between py-2">
         <Link href="/">
           <Logo />
-          {/* <LogoSymbol brand={BrandThemes.ZEDA} width={32} /> */}
         </Link>
         <SheetPrimitive.Close className="text-silver-500 z-50 rounded ring-offset-violet-500 transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:pointer-events-none">
           <Image
