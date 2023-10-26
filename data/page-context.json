@@ -15,8 +15,8 @@
       "customize": "Create automated or API triggered workflows"
     },
     "images": {
-      "dashboard": "./assets/product-images/journeys-dashboard.svg",
-      "platform": "./assets/product-images/journeys-platform.svg"
+      "dashboard": "/images/journeys-dashboard.svg",
+      "platform": "/images/journeys-platform.svg"
     }
   },
   {
@@ -35,8 +35,8 @@
       "customize": "Unique personalized interactions"
     },
     "images": {
-      "dashboard": "./assets/product-images/data-pipelines-dashboard.svg",
-      "platform": "./assets/product-images/data-pipelines-platform.svg"
+      "dashboard": "/images/data-pipelines-dashboard.svg",
+      "platform": "/images/data-pipelines-platform.svg"
     }
   }
 ]

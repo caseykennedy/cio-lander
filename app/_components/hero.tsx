@@ -52,17 +52,17 @@ export default function Hero({
             </TabsList>
           </div>
 
-          <div className="relative z-20 mb-12 flex-1 sm:mb-0 md:flex-[1.1] xl:flex-[2]">
+          <div className="relative -top-4 z-20 mb-12 max-h-[426px] flex-1 sm:mb-0 md:flex-[1.1] xl:flex-[2]">
             <TabsContent value="overview">
               <motion.div
                 variants={staggerChild}
                 initial="hidden"
                 animate="visible"
-                className="relative z-30 h-full w-full shrink-0 px-14 md:px-0"
+                className="relative z-30 w-full shrink-0 px-8 md:px-0"
               >
                 <Image
                   priority
-                  src="/images/data-pipelines-dashboard.svg"
+                  src={images.dashboard}
                   height={426}
                   width={664}
                   alt="Customer.io Journeys"
@@ -74,11 +74,11 @@ export default function Hero({
                 variants={staggerChild}
                 initial="hidden"
                 animate="visible"
-                className="relative z-30 h-full w-full shrink-0 px-14 md:px-0"
+                className="relative z-30 w-full shrink-0 px-8 md:px-0"
               >
                 <Image
                   priority
-                  src="/images/data-pipelines-dashboard.svg"
+                  src={images.platform}
                   height={426}
                   width={664}
                   alt="Customer.io Journeys"
@@ -105,7 +105,7 @@ export default function Hero({
             variants={staggerContainer}
             initial="hidden"
             animate="visible"
-            className="relative z-20 flex flex-1 flex-col items-center sm:flex-row md:flex-col md:items-start"
+            className="relative z-20 flex flex-1 flex-col items-center gap-8 sm:flex-row md:flex-col md:items-start md:gap-0"
           >
             <div className="flex-[1.25] md:flex-1">
               <motion.div
@@ -124,7 +124,7 @@ export default function Hero({
               <TabsContent value="overview">
                 <motion.p
                   variants={staggerChild}
-                  className="lead text-center sm:text-left md:mb-10 lg:max-w-[27ch]"
+                  className="lead px-4 text-center sm:text-left md:mb-10 md:px-0 lg:max-w-[27ch]"
                 >
                   {overview.content}
                 </motion.p>
@@ -133,7 +133,7 @@ export default function Hero({
               <TabsContent value="features">
                 <motion.p
                   variants={staggerChild}
-                  className="lead text-center sm:text-left md:mb-10 lg:max-w-[27ch]"
+                  className="lead px-4 text-center sm:text-left md:mb-10 md:px-0 lg:max-w-[27ch]"
                 >
                   {features.content}
                 </motion.p>
