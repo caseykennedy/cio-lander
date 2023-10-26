@@ -17,6 +17,7 @@ Welcome to the Customer.io Landing Page assessment! This Next.js web app showcas
 - **Custom Color Themes:** Individualize product showcases with custom color palettes.
 - **Responsive Layout:** Ensure a consistent and appealing display on different screen sizes.
 - **Custom Generate Open Graph Image:** These are useful for setting the images that appear on social networks and messaging apps when a user shares a link to your site.
+- **GitHub Workflows:** Run linting on GitHub.
 
 ## Known Bugs
 
