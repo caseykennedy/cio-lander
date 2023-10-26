@@ -14,7 +14,7 @@ Welcome to the Customer.io Landing Page assessment! This Next.js web app showcas
 - **Animated SVGs:** Bring visual elements to life with smooth animations.
 - **Mobile Navigation:** Seamless navigation for users on various devices.
 - **Tabs Component:** Organize content effectively using a flexible tabs interface.
-- **Custom Color Themes:** Personalize the user experience with a variety of color options.
+- **Custom Color Themes:** Individualize product showcases with custom color palettes.
 - **Responsive Layout:** Ensure a consistent and appealing display on different screen sizes.
 
 ## Known Bugs
@@ -27,11 +27,11 @@ Welcome to the Customer.io Landing Page assessment! This Next.js web app showcas
 
 - Add more variety of animations
 - Add parallax to the background illustrations
-- Animate background gradients
+- Animate background and text gradients
 
 ## Getting Started
 
-Follow these steps to set up the project up and running on your local machine:
+Follow these steps to get the project up and running on your local machine:
 
 1. Install dependencies:
 
@@ -52,8 +52,6 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
