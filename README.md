@@ -1,13 +1,13 @@
 # Customer.io Landing Page
 
-Welcome to the Customer.io Landing Page project! This Next.js web app showcases modern frontend development techniques and features a variety of technologies to create an engaging user experience.
+Welcome to the Customer.io Landing Page assessment! This Next.js web app showcases modern frontend development techniques and features a variety of technologies.
 
 ## Technologies Used
 
 - [Next.js](https://nextjs.org/): A React framework for building web applications.
 - [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework.
 - [Framer Motion](https://www.framer.com/motion/): A library for creating fluid animations.
-- [shadcn/ui](https://github.com/shadcn/ui): [A brief description of the utility, if needed.]
+- [shadcn/ui](https://github.com/shadcn/ui): Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.
 
 ## Features
 
@@ -19,16 +19,21 @@ Welcome to the Customer.io Landing Page project! This Next.js web app showcases 
 
 ## Known Bugs
 
-- **SVG Animation Groups:** [Briefly describe the bug and any ongoing efforts to address it.]
-- **Dot Grid SVG:** Opacity gradient mask missing; details on fixing in progress.
+- **Mobile Navigation:** When clicking the logo to navigate home within the mobile nav, the route updates, but the nav sheet does not exit the viewport; determine what is causing this bug and fix.
+- **SVG Animation Groups:** Some SVG groups are not animated; organize SVGs better so that groups can be managed.
+- **Dot Grid SVG:** Opacity gradient mask missing; determine what is causing this bug and fix.
 
 ## Future Enhancements
 
-- **AI Chat Bot:** [A playful mention of a potential future feature.]
+- Add more variety of animations
+- Add parallax to the background illustrations
+- Animate background gradients
 
 ## Getting Started
 
 Follow these steps to set up the project up and running on your local machine:
+
+1. Install dependencies:
 
 ```bash
 npm i
@@ -38,6 +43,12 @@ yarn i
 pnpm i
 # or
 bun i
+```
+
+2. Run the app:
+
+```bash
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
