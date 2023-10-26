@@ -30,7 +30,7 @@ export default {
     },
     extend: {
       borderRadius: {
-        DEFAULT: "10px",
+        DEFAULT: "var(--radius)",
       },
       linearGradients: {
         // Example gradients

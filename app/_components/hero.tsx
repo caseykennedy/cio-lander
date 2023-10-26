@@ -63,8 +63,8 @@ export default function Hero({
                 <Image
                   priority
                   src={images.dashboard}
-                  height={426}
-                  width={664}
+                  height={420}
+                  width={700}
                   alt="Customer.io Journeys"
                 />
               </motion.div>
@@ -79,8 +79,8 @@ export default function Hero({
                 <Image
                   priority
                   src={images.platform}
-                  height={426}
-                  width={664}
+                  height={420}
+                  width={700}
                   alt="Customer.io Journeys"
                 />
               </motion.div>

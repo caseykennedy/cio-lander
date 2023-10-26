@@ -37,7 +37,7 @@ const NavLink = ({
   <Link
     href={href}
     className={cn(
-      `group inline-flex items-center justify-center gap-3 whitespace-nowrap rounded border border-white/50 bg-transparent px-3 py-2.5 font-sans text-xs font-bold uppercase tracking-[2px] text-white transition-colors hover:border-white`,
+      `group relative inline-flex items-center justify-center gap-3 whitespace-nowrap rounded border border-white/50 bg-transparent px-3 py-2.5 font-sans text-xs font-bold uppercase tracking-[2px] text-white transition-colors hover:border-white active:translate-y-0.5`,
       active ? "border-white/50" : "border-transparent",
     )}
   >

@@ -18,8 +18,11 @@
 
     --header-height: 44px;
 
+    --radius: 5px;
+
     @media (min-width: 640px) {
       --header-height: 87px;
+      --radius: 10px;
     }
   }
 

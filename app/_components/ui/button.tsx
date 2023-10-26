@@ -18,7 +18,7 @@ export const buttonVariants = cva(
           "border border-primary-500 hover:border-primary-600 bg-primary-500 hover:bg-primary-600 active:bg-transparent active:border-primary-400 active:text-primary-400",
       },
       size: {
-        default: "h-[47px] px-6 md:px-9 py-2.5",
+        default: "h-[47px] px-6 md:px-8 py-2.5",
       },
     },
     defaultVariants: {
