@@ -45,7 +45,7 @@ export default function DataPipelinesDashboard() {
   return (
     <motion.svg
       width="100%"
-      height="100%"
+      // height="100%"
       // height="420"
       viewBox="0 0 700 420"
       fill="none"
