@@ -81,28 +81,28 @@ export default function RootLayout({
       className={`${Geologica.variable} scroll-smooth`}
       suppressHydrationWarning
     >
-      <link rel="icon" href="/images/favicon.ico" sizes="any" />
+      <link rel="icon" href="/favicon/favicon.svg" sizes="any" />
       <link
         rel="apple-touch-icon"
         sizes="76x76"
-        href="/images/favicons/apple-touch-icon.png"
+        href="/favicon/apple-touch-icon.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="/images/favicons/favicon-32x32.png"
+        href="/favicon/favicon-32x32.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="/images/favicons/favicon-16x16.png"
+        href="/favicon/favicon-16x16.png"
       />
-      <link rel="manifest" href="/static/favicons/site.webmanifest" />
+      <link rel="manifest" href="/static/favicon/site.webmanifest" />
       <link
         rel="mask-icon"
-        href="/images/favicons/safari-pinned-tab.svg"
+        href="/favicon/safari-pinned-tab.svg"
         color="#fff"
       />
       <meta name="msapplication-TileColor" content="#000" />
