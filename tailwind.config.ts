@@ -10,12 +10,13 @@ export default {
       center: true,
       padding: {
         DEFAULT: "18px",
-        sm: "1.75rem",
+        sm: "1.25rem",
+        md: "1.75rem",
         lg: "2rem",
         xl: "2rem",
       },
       screens: {
-        sm: "640px",
+        sm: "686px",
         md: "768px",
         lg: "1024px",
         xl: "1183px",
@@ -38,6 +39,11 @@ export default {
       },
       colors: {
         bg: "#070724",
+        primary: {
+          400: "var(--primary-400)",
+          500: "var(--primary-500)",
+          600: "var(--primary-600)",
+        },
         purple: {
           400: "#BA9CFF",
           500: "#5721CC",

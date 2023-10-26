@@ -19,7 +19,8 @@
     "baseUrl": ".",
     "paths": {
       "~/*": ["./*"],
-      "~/components/*": ["app/_components/*"]
+      "~/components/*": ["app/_components/*"],
+      "~/types/*": ["app/_types/*"]
     },
     "plugins": [{ "name": "next" }]
   },

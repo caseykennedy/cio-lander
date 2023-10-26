@@ -1,11 +1,14 @@
-import Features from "../features";
-import Hero from "../hero";
+import Features from "~/components/features";
+import Hero from "~/components/hero";
+import getPageContext, { PageName } from "~/lib/get-page-context";
 
-export default function Page() {
+export default async function Page() {
+  const ctx = await getPageContext(PageName.CIO_PIPELINES);
+  console.log("ctx:", ctx);
   return (
     <>
-      <Hero />
-      <Features />
+      {ctx && <Hero {...ctx} />}
+      {ctx && <Features {...ctx} />}
     </>
   );
 }

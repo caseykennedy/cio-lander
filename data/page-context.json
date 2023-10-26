@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "default",
+    "name": "Journeys",
+    "overview": {
+      "content": "Deliver powerful customer experiences. Build unique customer interactions across mobile and web through channels like email, push, in-app, and SMS."
+    },
+    "features": {
+      "content": "Delight your audience at every point in their customer journey, from automated campaigns, one-time sends, and transactional messages."
+    },
+    "featureItems": {
+      "scale": "Manage all messaging across channels",
+      "connect": "Target specific groups with an offer or message",
+      "unify": "Leverage real-time data to test your hypothesis",
+      "customize": "Create automated or API triggered workflows"
+    },
+    "images": {
+      "dashboard": "./assets/product-images/journeys-dashboard.svg",
+      "platform": "./assets/product-images/journeys-platform.svg"
+    }
+  },
+  {
+    "theme": "dark",
+    "name": "Data Pipelines",
+    "overview": {
+      "content": "Connect first-party data to every tool in your tech stack with Data Pipelines, a customer data platform (CDP), so you can focus on what matters most—building relationships with your customers."
+    },
+    "features": {
+      "content": "Consolidate touch points from any source, including your data warehouse, for a complete view of your customer. Pair with Journeys to build unique personalized interactions."
+    },
+    "featureItems": {
+      "scale": "Architected to meet all your data needs",
+      "connect": "Ensure all your security standards are met",
+      "unify": "Consolidate touch points from any source",
+      "customize": "Unique personalized interactions"
+    },
+    "images": {
+      "dashboard": "./assets/product-images/data-pipelines-dashboard.svg",
+      "platform": "./assets/product-images/data-pipelines-platform.svg"
+    }
+  }
+]

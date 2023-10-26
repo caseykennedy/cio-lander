@@ -1,4 +1,6 @@
-export default function Logo() {
+import { cn } from "~/util";
+
+export default function Logo({ className }: { className?: string }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -6,6 +8,7 @@ export default function Logo() {
       height="32"
       viewBox="0 0 45 32"
       fill="none"
+      className={cn(`w-[31px] md:w-[45px]`, className)}
     >
       <path
         d="M22.2381 18.2679C27.1509 18.2679 31.1334 14.3024 31.1334 9.41074C31.1334 4.51907 27.1509 0.553589 22.2381 0.553589C17.3253 0.553589 13.3428 4.51907 13.3428 9.41074C13.3428 14.3024 17.3253 18.2679 22.2381 18.2679Z"
