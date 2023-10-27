@@ -5,10 +5,10 @@ const siteMetadata = {
   description: "Customer.io Landing Page",
   language: "en-us",
   theme: "system", // system, dark or light
-  siteUrl: "https://tailwind-nextjs-starter-blog.vercel.app",
-  siteRepo: "https://github.com/timlrx/tailwind-nextjs-starter-blog",
+  siteUrl: "https://cio-lander.vercel.app",
+  siteRepo: "https://github.com/caseykennedy",
   siteLogo: "/images/logo.png",
-  socialBanner: "/images/twitter-card.png",
+  socialBanner: "/images/og.svg",
   locale: "en-US",
 };
 

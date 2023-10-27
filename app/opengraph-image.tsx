@@ -1,7 +1,5 @@
 import { ImageResponse } from "next/server";
 
-import Logo from "~/components/logo";
-
 // Route segment config
 export const runtime = "edge";
 
