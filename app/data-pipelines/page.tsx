@@ -4,10 +4,11 @@ import getPageContext, { PageName } from "~/lib/get-page-context";
 
 export default async function Page() {
   const ctx = await getPageContext(PageName.CIO_PIPELINES);
+
   return (
     <>
-      {ctx && <Hero {...ctx} />}
-      {ctx && <Features {...ctx} />}
+      <Hero {...ctx} />
+      <Features {...ctx} />
     </>
   );
 }

@@ -28,7 +28,7 @@ export default function JourneysDashboard() {
       initial="hidden"
       animate="visible"
     >
-      <g clip-path="url(#clip0_233_460)">
+      <g clipPath="url(#clip0_233_460)">
         <motion.g variants={staggerChild} filter="url(#filter0_d_233_460)">
           <path
             d="M495.5 19H203.5C201.291 19 199.5 20.7909 199.5 23V79C199.5 81.2091 201.291 83 203.5 83H495.5C497.709 83 499.5 81.2091 499.5 79V23C499.5 20.7909 497.709 19 495.5 19Z"
@@ -39,8 +39,8 @@ export default function JourneysDashboard() {
             fill="#00D9F5"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M214 34C214 33.7239 214.224 33.5 214.5 33.5H226.5C226.776 33.5 227 33.7239 227 34V42C227 42.2761 226.776 42.5 226.5 42.5H214.5C214.224 42.5 214 42.2761 214 42V34ZM215.707 34.5L220.382 39.175C220.447 39.2401 220.553 39.2401 220.618 39.175L225.293 34.5H215.707ZM226 35.2071L223.207 38L226 40.7929V35.2071ZM225.293 41.5L222.5 38.7071L221.325 39.8821C220.869 40.3378 220.131 40.3378 219.675 39.8821L218.5 38.7071L215.707 41.5H225.293ZM215 40.7929V35.2071L217.793 38L215 40.7929Z"
             fill="white"
           />
@@ -76,8 +76,8 @@ export default function JourneysDashboard() {
             fill="#F7751E"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M218 125.718C218 125.442 218.224 125.218 218.5 125.218H222.5C222.776 125.218 223 125.442 223 125.718C223 125.994 222.776 126.218 222.5 126.218H221V127.909C222.052 128.01 223.011 128.426 223.783 129.062L224.813 128.031C225.009 127.836 225.325 127.836 225.52 128.031C225.716 128.227 225.716 128.543 225.52 128.738L224.49 129.769C225.225 130.661 225.667 131.805 225.667 133.052C225.667 135.905 223.354 138.218 220.5 138.218C217.647 138.218 215.333 135.905 215.333 133.052C215.333 130.367 217.381 128.16 220 127.909V126.218H218.5C218.224 126.218 218 125.994 218 125.718ZM220.5 128.885C218.199 128.885 216.333 130.75 216.333 133.052C216.333 135.353 218.199 137.218 220.5 137.218C222.801 137.218 224.667 135.353 224.667 133.052C224.667 131.901 224.201 130.86 223.446 130.105C222.692 129.351 221.651 128.885 220.5 128.885ZM218.147 131.405C217.951 131.21 217.951 130.893 218.147 130.698C218.342 130.503 218.658 130.503 218.854 130.698L220.854 132.698C221.049 132.893 221.049 133.21 220.854 133.405C220.658 133.6 220.342 133.6 220.147 133.405L218.147 131.405Z"
             fill="white"
           />
@@ -86,14 +86,14 @@ export default function JourneysDashboard() {
             fill="white"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M453.5 132.218C450.755 132.218 448.667 134.111 448.667 136.29V136.552H458.333V136.29C458.333 134.111 456.244 132.218 453.5 132.218ZM447.667 136.29C447.667 133.419 450.353 131.218 453.5 131.218C456.646 131.218 459.333 133.419 459.333 136.29V137.052C459.333 137.328 459.109 137.552 458.833 137.552H448.167C447.89 137.552 447.667 137.328 447.667 137.052V136.29Z"
             fill="white"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M453.5 126.885C452.303 126.885 451.333 127.855 451.333 129.052C451.333 130.248 452.303 131.218 453.5 131.218C454.696 131.218 455.667 130.248 455.667 129.052C455.667 127.855 454.696 126.885 453.5 126.885ZM450.333 129.052C450.333 127.303 451.751 125.885 453.5 125.885C455.249 125.885 456.667 127.303 456.667 129.052C456.667 130.801 455.249 132.218 453.5 132.218C451.751 132.218 450.333 130.801 450.333 129.052Z"
             fill="white"
           />
@@ -183,8 +183,8 @@ export default function JourneysDashboard() {
             fill="#00D9F5"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M18.5 330.41C18.5 330.134 18.7239 329.91 19 329.91H31C31.2761 329.91 31.5 330.134 31.5 330.41V338.41C31.5 338.687 31.2761 338.91 31 338.91H19C18.7239 338.91 18.5 338.687 18.5 338.41V330.41ZM20.2071 330.91L24.8821 335.585C24.9472 335.651 25.0528 335.651 25.1179 335.585L29.7929 330.91H20.2071ZM30.5 331.618L27.7071 334.41L30.5 337.203V331.618ZM29.7929 337.91L27 335.118L25.825 336.293C25.3693 336.748 24.6307 336.748 24.175 336.293L23 335.118L20.2071 337.91H29.7929ZM19.5 337.203V331.618L22.2929 334.41L19.5 337.203Z"
             fill="white"
           />
@@ -232,8 +232,8 @@ export default function JourneysDashboard() {
             fill="#00D9F5"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M409.5 330.41C409.5 330.134 409.724 329.91 410 329.91H422C422.276 329.91 422.5 330.134 422.5 330.41V338.41C422.5 338.687 422.276 338.91 422 338.91H410C409.724 338.91 409.5 338.687 409.5 338.41V330.41ZM411.207 330.91L415.882 335.585C415.947 335.651 416.053 335.651 416.118 335.585L420.793 330.91H411.207ZM421.5 331.618L418.707 334.41L421.5 337.203V331.618ZM420.793 337.91L418 335.118L416.825 336.293C416.369 336.748 415.631 336.748 415.175 336.293L414 335.118L411.207 337.91H420.793ZM410.5 337.203V331.618L413.293 334.41L410.5 337.203Z"
             fill="white"
           />
@@ -260,9 +260,9 @@ export default function JourneysDashboard() {
           width="330"
           height="94"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -303,9 +303,9 @@ export default function JourneysDashboard() {
           width="330"
           height="68"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -338,9 +338,9 @@ export default function JourneysDashboard() {
           width="329"
           height="73.2556"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -373,9 +373,9 @@ export default function JourneysDashboard() {
           width="330"
           height="116"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -408,9 +408,9 @@ export default function JourneysDashboard() {
           width="330"
           height="94"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -452,8 +452,8 @@ export default function JourneysDashboard() {
           y2="97"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3600A3" />
-          <stop offset="1" stop-color="#160042" />
+          <stop stopColor="#3600A3" />
+          <stop offset="1" stopColor="#160042" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_233_460"
@@ -463,8 +463,8 @@ export default function JourneysDashboard() {
           y2="83"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8E2DE2" />
-          <stop offset="1" stop-color="#3B006F" />
+          <stop stopColor="#8E2DE2" />
+          <stop offset="1" stopColor="#3B006F" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_233_460"
@@ -474,8 +474,8 @@ export default function JourneysDashboard() {
           y2="163.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#2B0083" />
-          <stop offset="1" stop-color="#160042" />
+          <stop stopColor="#2B0083" />
+          <stop offset="1" stopColor="#160042" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_233_460"
@@ -485,8 +485,8 @@ export default function JourneysDashboard() {
           y2="150.718"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8E2DE2" />
-          <stop offset="1" stop-color="#3B006F" />
+          <stop stopColor="#8E2DE2" />
+          <stop offset="1" stopColor="#3B006F" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_233_460"
@@ -496,8 +496,8 @@ export default function JourneysDashboard() {
           y2="223.692"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3600A3" />
-          <stop offset="1" stop-color="#160042" />
+          <stop stopColor="#3600A3" />
+          <stop offset="1" stopColor="#160042" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_233_460"
@@ -507,8 +507,8 @@ export default function JourneysDashboard() {
           y2="223.692"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8E2DE2" />
-          <stop offset="1" stop-color="#3B006F" />
+          <stop stopColor="#8E2DE2" />
+          <stop offset="1" stopColor="#3B006F" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_233_460"
@@ -518,8 +518,8 @@ export default function JourneysDashboard() {
           y2="285.692"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3600A3" />
-          <stop offset="1" stop-color="#160042" />
+          <stop stopColor="#3600A3" />
+          <stop offset="1" stopColor="#160042" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_233_460"
@@ -529,8 +529,8 @@ export default function JourneysDashboard() {
           y2="401.41"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3600A3" />
-          <stop offset="1" stop-color="#160042" />
+          <stop stopColor="#3600A3" />
+          <stop offset="1" stopColor="#160042" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_233_460"
@@ -540,8 +540,8 @@ export default function JourneysDashboard() {
           y2="401.41"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8E2DE2" />
-          <stop offset="1" stop-color="#3B006F" />
+          <stop stopColor="#8E2DE2" />
+          <stop offset="1" stopColor="#3B006F" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_233_460"
@@ -551,8 +551,8 @@ export default function JourneysDashboard() {
           y2="285.692"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3600A3" />
-          <stop offset="1" stop-color="#160042" />
+          <stop stopColor="#3600A3" />
+          <stop offset="1" stopColor="#160042" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_233_460"
@@ -562,8 +562,8 @@ export default function JourneysDashboard() {
           y2="379.41"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3600A3" />
-          <stop offset="1" stop-color="#160042" />
+          <stop stopColor="#3600A3" />
+          <stop offset="1" stopColor="#160042" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_233_460"
@@ -573,8 +573,8 @@ export default function JourneysDashboard() {
           y2="379.41"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8E2DE2" />
-          <stop offset="1" stop-color="#3B006F" />
+          <stop stopColor="#8E2DE2" />
+          <stop offset="1" stopColor="#3B006F" />
         </linearGradient>
         <clipPath id="clip0_233_460">
           <rect width="700" height="420" fill="white" />

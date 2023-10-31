@@ -28,7 +28,7 @@ export default function DataPipelinesPlatform() {
         ease: "easeInOut",
       }}
     >
-      <g clip-path="url(#clip0_233_460)">
+      <g clipPath="url(#clip0_233_460)">
         <g filter="url(#filter0_d_233_460)">
           <path
             d="M65 6.06741C65 3.82104 66.8207 2 69.0667 2H487.933C490.179 2 492 3.82104 492 6.06742V359.933C492 362.179 490.179 364 487.933 364H69.0667C66.8207 364 65 362.179 65 359.933V6.06741Z"
@@ -37,8 +37,8 @@ export default function DataPipelinesPlatform() {
         </g>
         <g filter="url(#filter1_d_233_460)">
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M487.933 3.01685H69.0667C67.3822 3.01685 66.0167 4.38264 66.0167 6.06741V359.933C66.0167 361.617 67.3822 362.983 69.0667 362.983H487.933C489.618 362.983 490.983 361.617 490.983 359.933V6.06742C490.983 4.38264 489.618 3.01685 487.933 3.01685ZM69.0667 2C66.8207 2 65 3.82104 65 6.06741V359.933C65 362.179 66.8207 364 69.0667 364H487.933C490.179 364 492 362.179 492 359.933V6.06742C492 3.82104 490.179 2 487.933 2H69.0667Z"
             fill="url(#paint1_linear_233_460)"
             shape-rendering="crispEdges"
@@ -879,8 +879,8 @@ export default function DataPipelinesPlatform() {
           fill="#EBECF2"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M410.5 164.985C428.441 164.985 442.985 150.441 442.985 132.5C442.985 114.559 428.441 100.015 410.5 100.015C392.559 100.015 378.015 114.559 378.015 132.5C378.015 150.441 392.559 164.985 410.5 164.985ZM410.5 166C429.002 166 444 151.002 444 132.5C444 113.998 429.002 99 410.5 99C391.998 99 377 113.998 377 132.5C377 151.002 391.998 166 410.5 166Z"
           fill="#EBECF2"
         />
@@ -902,14 +902,14 @@ export default function DataPipelinesPlatform() {
           <path d="M381 112H436V168H381V112Z" fill="url(#pattern0)" />
         </g>
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M410.5 164.985C428.441 164.985 442.985 150.441 442.985 132.5C442.985 114.559 428.441 100.015 410.5 100.015C392.559 100.015 378.015 114.559 378.015 132.5C378.015 150.441 392.559 164.985 410.5 164.985ZM410.5 166C429.002 166 444 151.002 444 132.5C444 113.998 429.002 99 410.5 99C391.998 99 377 113.998 377 132.5C377 151.002 391.998 166 410.5 166Z"
           fill="#EBECF2"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M634 191H353V190H634V191Z"
           fill="#0575E6"
           fill-opacity="0.2"
@@ -923,9 +923,9 @@ export default function DataPipelinesPlatform() {
           width="457"
           height="392"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -958,9 +958,9 @@ export default function DataPipelinesPlatform() {
           width="457"
           height="392"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -993,9 +993,9 @@ export default function DataPipelinesPlatform() {
           width="297"
           height="361"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1056,8 +1056,8 @@ export default function DataPipelinesPlatform() {
           y2="129.104"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#096ACB" />
-          <stop offset="1" stop-color="#00162D" />
+          <stop stopColor="#096ACB" />
+          <stop offset="1" stopColor="#00162D" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_233_460"
@@ -1067,8 +1067,8 @@ export default function DataPipelinesPlatform() {
           y2="364"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0575E6" />
-          <stop offset="1" stop-color="#0575E6" stop-opacity="0" />
+          <stop stopColor="#0575E6" />
+          <stop offset="1" stopColor="#0575E6" stop-opacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_233_460"
@@ -1078,8 +1078,8 @@ export default function DataPipelinesPlatform() {
           y2="417.953"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0575E6" />
-          <stop offset="0.739583" stop-color="#00162D" />
+          <stop stopColor="#0575E6" />
+          <stop offset="0.739583" stopColor="#00162D" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_233_460"
@@ -1089,8 +1089,8 @@ export default function DataPipelinesPlatform() {
           y2="418"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0575E6" />
-          <stop offset="1" stop-color="#0575E6" stop-opacity="0" />
+          <stop stopColor="#0575E6" />
+          <stop offset="1" stopColor="#0575E6" stop-opacity="0" />
         </linearGradient>
         <clipPath id="clip0_233_460">
           <rect width="700" height="420" fill="white" />
