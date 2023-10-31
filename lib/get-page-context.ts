@@ -31,9 +31,5 @@ export default async function getPageContext(pageName: PageName) {
   const data: PageContextShape[] = JSON.parse(file);
   const ctx = data.find((ctx) => ctx.name === pageName);
 
-  if (!ctx) {
-    throw new Error(`Context not found for pageName: ${pageName}`);
-  }
-
   return ctx;
 }
