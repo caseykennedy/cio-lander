@@ -90,7 +90,14 @@ export default function Hero({
                 animate="visible"
                 className="relative z-30 w-full px-8 md:px-0"
               >
-                {pickArtwork(name, "Dashboard")}
+                <Image
+                  priority
+                  src={images.dashboard}
+                  height={420}
+                  width={700}
+                  alt="Customer.io Journeys"
+                />
+                {/* {pickArtwork(name, "Dashboard")} */}
               </motion.div>
             </TabsContent>
             <TabsContent value="features">
@@ -100,7 +107,14 @@ export default function Hero({
                 animate="visible"
                 className="relative z-30 w-full px-8 md:px-0"
               >
-                {pickArtwork(name, "Platform")}
+                <Image
+                  priority
+                  src={images.platform}
+                  height={420}
+                  width={700}
+                  alt="Customer.io Journeys"
+                />
+                {/* {pickArtwork(name, "Platform")} */}
               </motion.div>
             </TabsContent>
             <motion.div
