@@ -19,7 +19,7 @@ export const staggerChild = {
       type: "spring",
       stiffness: 333,
       velocity: 2,
-      duration: 0.5,
+      duration: 0.35,
       damping: 10,
       ease: "easeOut",
     },

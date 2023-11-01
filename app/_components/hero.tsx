@@ -3,11 +3,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-import DataPipelinesDashboard from "./data-pipelines-dashboard";
-import DataPipelinesPlatform from "./data-pipelines-platform";
-import JourneysDashboard from "./journeys-dashboard";
-import JourneysPlatform from "./journeys-platform";
-
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs";
 import type { PageContextShape } from "~/lib/get-page-context";
 import { cn } from "~/util";
@@ -19,7 +14,7 @@ import {
 
 const DecoratorTile = () => (
   <motion.div
-    initial={{ scale: 0 }}
+    initial={{ rotate: 16, scale: 0.85 }}
     animate={{ rotate: 29, scale: 1 }}
     transition={{
       duration: 2,
@@ -41,31 +36,6 @@ export default function Hero({
   PageContextShape,
   "theme" | "name" | "overview" | "features" | "images"
 >) {
-  const pickArtwork = (name: string, feature: string) => {
-    switch (name) {
-      case "Journeys":
-        switch (feature) {
-          case "Dashboard":
-            return <JourneysDashboard />;
-
-          case "Platform":
-            return <JourneysPlatform />;
-        }
-
-      case "Data Pipelines":
-        switch (feature) {
-          case "Dashboard":
-            return <DataPipelinesDashboard />;
-
-          case "Platform":
-            return <DataPipelinesPlatform />;
-        }
-
-      default:
-        return null;
-    }
-  };
-
   return (
     <section
       className={cn(
@@ -97,7 +67,6 @@ export default function Hero({
                   width={700}
                   alt="Customer.io Journeys"
                 />
-                {/* {pickArtwork(name, "Dashboard")} */}
               </motion.div>
             </TabsContent>
             <TabsContent value="features">
@@ -114,7 +83,6 @@ export default function Hero({
                   width={700}
                   alt="Customer.io Journeys"
                 />
-                {/* {pickArtwork(name, "Platform")} */}
               </motion.div>
             </TabsContent>
             <motion.div
@@ -140,22 +108,18 @@ export default function Hero({
             className="relative z-20 flex flex-1 flex-col items-center gap-8 sm:flex-row md:flex-col md:items-start md:gap-0"
           >
             <div className="flex-[1.25] md:flex-1">
-              <motion.div
-                variants={staggerChild}
-                className="text-center text-h2 sm:text-left"
-              >
-                Customer.io
+              <motion.div variants={revealVariants}>
+                <div className="text-center text-h2 sm:text-left">
+                  Customer.io
+                </div>
+                <h1 className="text-gradient mb-2 text-center sm:mb-5 sm:inline-block sm:text-left">
+                  {name}
+                </h1>
               </motion.div>
-              <motion.h1
-                variants={staggerChild}
-                className="text-gradient mb-2 text-center sm:mb-5 sm:inline-block sm:text-left"
-              >
-                {name}
-              </motion.h1>
 
               <TabsContent value="overview">
                 <motion.p
-                  variants={staggerChild}
+                  variants={revealVariants}
                   className="lead px-4 text-center sm:px-0 sm:text-left md:mb-10 lg:max-w-[27ch]"
                 >
                   {overview.content}
@@ -164,7 +128,7 @@ export default function Hero({
 
               <TabsContent value="features">
                 <motion.p
-                  variants={staggerChild}
+                  variants={revealVariants}
                   className="lead px-4 text-center sm:px-0 sm:text-left md:mb-10 lg:max-w-[27ch]"
                 >
                   {features.content}

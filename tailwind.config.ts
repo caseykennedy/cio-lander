@@ -44,16 +44,6 @@ export default {
           500: "var(--primary-500)",
           600: "var(--primary-600)",
         },
-        purple: {
-          400: "#BA9CFF",
-          500: "#5721CC",
-          600: "#3C0F9E",
-        },
-        blue: {
-          400: "#4BA5FF",
-          500: "#0575E6",
-          600: "#0762BD",
-        },
       },
       fontFamily: {
         sans: ["var(--font-geologica)", "Arial", ...fontFamily.sans],
