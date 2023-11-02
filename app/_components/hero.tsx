@@ -6,24 +6,10 @@ import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs";
 import type { PageContextShape } from "~/lib/get-page-context";
 import { cn } from "~/util";
-import {
-  revealVariants,
-  staggerChild,
-  staggerContainer,
-} from "~/util/variants";
+import { revealVariants, staggerChild } from "~/util/variants";
 
 const DecoratorTile = () => (
-  <motion.div
-    initial={{ rotate: 29, scale: 1 }}
-    animate={{ rotate: 29, scale: 1 }}
-    transition={{
-      duration: 2,
-      type: "spring",
-      stiffness: 200,
-      damping: 40,
-    }}
-    className="gradient-decorator absolute -left-[0] bottom-[20rem] z-10 h-[110%] w-[110%] shrink-0 rounded-[41px] sm:-left-[40%] sm:bottom-[25rem] sm:h-[900px] sm:w-[900px] sm:rounded-[92px] md:-left-[64%] md:bottom-24 lg:-left-[26rem] lg:bottom-[6.5rem] lg:h-[940px] lg:w-[940px] xl:-left-64"
-  />
+  <div className="gradient-decorator absolute -left-[0] bottom-[20rem] z-10 h-[110%] w-[110%] shrink-0 rotate-[29deg] rounded-[41px] sm:-left-[40%] sm:bottom-[25rem] sm:h-[900px] sm:w-[900px] sm:rounded-[92px] md:-left-[64%] md:bottom-24 lg:-left-[26rem] lg:bottom-[6.5rem] lg:h-[940px] lg:w-[940px] xl:-left-64" />
 );
 
 export default function Hero({
@@ -48,7 +34,7 @@ export default function Hero({
         orientation="vertical"
         className="h-full w-full"
       >
-        <div className="container mx-auto flex h-full w-full flex-col items-start gap-12 overflow-hidden pb-10 sm:relative sm:overflow-visible sm:pb-12 md:flex-row md:gap-12 md:pb-16 md:pt-10 lg:pt-28">
+        <div className="container mx-auto flex h-full w-full flex-col items-center gap-12 overflow-hidden pb-10 sm:relative sm:overflow-visible sm:pb-12 md:flex-row md:gap-12 md:pb-16 md:pt-10 lg:pt-28 xl:items-start">
           <div className="relative z-30 flex-[1] sm:hidden">
             <TabsList>
               <TabsTrigger value="overview">Overview</TabsTrigger>
@@ -105,12 +91,7 @@ export default function Hero({
             </motion.div>
           </div>
 
-          <motion.div
-            variants={staggerContainer}
-            initial="hidden"
-            animate="visible"
-            className="relative z-20 flex flex-1 flex-col items-center gap-8 sm:flex-row md:flex-col md:items-start md:gap-0"
-          >
+          <motion.div className="relative z-20 flex flex-1 flex-col items-center gap-8 sm:flex-row md:flex-col md:items-start md:gap-0">
             <div className="flex-[1.25] md:flex-1">
               <div>
                 <div className="text-center text-h2 sm:text-left">
@@ -123,6 +104,8 @@ export default function Hero({
 
               <TabsContent value="overview">
                 <motion.p
+                  initial="hidden"
+                  animate="visible"
                   variants={revealVariants}
                   className="lead px-4 text-center sm:px-0 sm:text-left md:mb-10 lg:max-w-[27ch]"
                 >
@@ -132,6 +115,8 @@ export default function Hero({
 
               <TabsContent value="features">
                 <motion.p
+                  initial="hidden"
+                  animate="visible"
                   variants={revealVariants}
                   className="lead px-4 text-center sm:px-0 sm:text-left md:mb-10 lg:max-w-[27ch]"
                 >
