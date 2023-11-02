@@ -13,7 +13,7 @@ export default function Features({
 }: Pick<PageContextShape, "featureItems" | "theme">) {
   const featureKeys = Object.keys(featureItems);
   const inViewRef = useRef(null);
-  const isInView = useInView(inViewRef, { amount: 0.5, once: true });
+  const isInView = useInView(inViewRef, { amount: 0.25, once: true });
   return (
     <section
       className={cn(`bg-white py-10 text-black sm:py-12 lg:py-16`, theme)}

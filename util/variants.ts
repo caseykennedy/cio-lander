@@ -1,5 +1,5 @@
 export const staggerContainer = {
-  hidden: { opacity: 0 },
+  hidden: { opacity: 1 },
   visible: (i = 1) => ({
     opacity: 1,
     transition: { staggerChildren: 0.1, delayChildren: 0.05 * i },
@@ -8,7 +8,7 @@ export const staggerContainer = {
 
 export const staggerChild = {
   hidden: {
-    opacity: 0,
+    opacity: 1,
     y: 16,
     transition: {},
   },
@@ -17,7 +17,7 @@ export const staggerChild = {
     y: 0,
     transition: {
       type: "spring",
-      stiffness: 333,
+      stiffness: 300,
       velocity: 2,
       duration: 0.35,
       damping: 10,

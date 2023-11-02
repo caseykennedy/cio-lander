@@ -14,7 +14,7 @@ import {
 
 const DecoratorTile = () => (
   <motion.div
-    initial={{ rotate: 16, scale: 0.85 }}
+    initial={{ rotate: 29, scale: 1 }}
     animate={{ rotate: 29, scale: 1 }}
     transition={{
       duration: 2,
@@ -39,12 +39,16 @@ export default function Hero({
   return (
     <section
       className={cn(
-        `header-offset relative flex w-full items-center justify-center overflow-hidden md:overflow-visible`,
+        `header-offset relative flex w-full items-center justify-center overflow-hidden md:overflow-visible lg:h-[770px]`,
         theme,
       )}
     >
-      <Tabs defaultValue="overview" orientation="vertical" className="w-full">
-        <div className="container mx-auto flex w-full flex-col items-center gap-12 overflow-hidden pb-10 sm:relative sm:overflow-visible sm:pb-12 md:flex-row md:gap-12 md:pb-16 md:pt-10 lg:pt-28">
+      <Tabs
+        defaultValue="overview"
+        orientation="vertical"
+        className="h-full w-full"
+      >
+        <div className="container mx-auto flex h-full w-full flex-col items-start gap-12 overflow-hidden pb-10 sm:relative sm:overflow-visible sm:pb-12 md:flex-row md:gap-12 md:pb-16 md:pt-10 lg:pt-28">
           <div className="relative z-30 flex-[1] sm:hidden">
             <TabsList>
               <TabsTrigger value="overview">Overview</TabsTrigger>
@@ -96,7 +100,7 @@ export default function Hero({
                 src="/images/dot-pattern.svg"
                 height={595}
                 width={730}
-                alt="Customer.io Journeys"
+                alt="Background pattern"
               />
             </motion.div>
           </div>
@@ -108,14 +112,14 @@ export default function Hero({
             className="relative z-20 flex flex-1 flex-col items-center gap-8 sm:flex-row md:flex-col md:items-start md:gap-0"
           >
             <div className="flex-[1.25] md:flex-1">
-              <motion.div variants={revealVariants}>
+              <div>
                 <div className="text-center text-h2 sm:text-left">
                   Customer.io
                 </div>
                 <h1 className="text-gradient mb-2 text-center sm:mb-5 sm:inline-block sm:text-left">
                   {name}
                 </h1>
-              </motion.div>
+              </div>
 
               <TabsContent value="overview">
                 <motion.p
