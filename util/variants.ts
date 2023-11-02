@@ -8,7 +8,7 @@ export const staggerContainer = {
 
 export const staggerChild = {
   hidden: {
-    opacity: 1,
+    opacity: 0,
     y: 16,
     transition: {},
   },
